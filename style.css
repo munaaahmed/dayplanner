@@ -10,16 +10,26 @@ body {
     vertical-align: middle;
   }
   
-  
+  .row {
+color: white;
+text-align: left;
+height: 80px;
+
+  }
+ 
   /*  need to make box fit space */
-  input {
+  #textarea {
     background: transparent;
-    border: none;
+    border-left: 1px solid black;
   
     /* so cursor appears */
-    padding-left: 3px;
+    padding-left: 10px;
   }
-  
+  .savebtn{
+border-left: 1px solid black;
+margin: 2px;
+
+  }
   
   .navbar {
     /* background-color: #73919b;   */
@@ -50,10 +60,6 @@ body {
     text-align: center;
   }
   
-  .col-md-1, .col-md-2, .col-md-9 {
-    padding: 0;
-  }
-  
   /* #planner */
   #plannerContainer {
     /* background-color: #73919b;   */
@@ -65,7 +71,14 @@ body {
     /* provide spaceing around the text */
     padding: 40px;
   } 
-  
+  .hour{
+    font-size: large;
+    text-align: center;
+    color: royalblue;
+    padding: 12px;
+
+  }
+
   .plannerRow {
     height: 50px;
     margin-top: 2px;
@@ -95,7 +108,7 @@ body {
     width: 100%;
   }
   
-  .edit_btn {
+  .col-my-col-col-a1, .col-my-col-col-b1, .col-my-col-col-c1, .col-my-col-col-d1{
     background-color: darkturquoise;
     color: linen;
     border-radius: 0px 15px 15px 0px;
