@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+   
 
     <head>
         </body>
@@ -17,7 +17,7 @@
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
               <h1 class="display-4">Day Planner</h1>
-              <div id="currentday">currentday</div>
+              <div id="currentday"></div>
             
             </div>
           </div>
@@ -26,13 +26,13 @@
 
                 <div class="row">
                     <div class="col-md-1 hour"> 9 am </div>
-                    <input class="col-md-10" id="textarea" type="text">
-                   <button type="button" class="btn btn-primary savebtn">Save</button>
+                    <input class="col-md-10" id="textarea1" data-store="1" type="text">
+                   <button type="button" id="saveBtn1" class="btn btn-primary savebtn">Save</button>
                 </div>
                 <div class="row">
                     <div class="col-md-1 hour"> 10 am </div>
-                    <input class="col-md-10" id="textarea" type="text">
-                   <button type="button" class="btn btn-primary savebtn">Save</button>
+                    <input class="col-md-10" id="textarea2" data-store="2" type="text">
+                   <button type="button" id="saveBtn2" class="btn btn-primary savebtn">Save</button>
                 </div>
                 <div class="row">
                     <div class="col-md-1 hour"> 11 am </div>
@@ -79,13 +79,12 @@
 
         <!-- Start Footer -->
         <nav class="navbar fixed-bottom footer">
-            <div class="footer-text">An original Website by Me</div>
+            <div class="footer-text">An original Website by Muna Ahmed</div>
         </nav>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"
-            integrity="sha256-H9jAz//QLkDOy/nzE9G4aYijQtkLt9FvGmdUTwBk6gs=" crossorigin="anonymous"></script>
-        <script src='./script.js'></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+        <script src="script.js"></script>
         </body>
 
 </html>
