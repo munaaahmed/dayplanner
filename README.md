@@ -6,7 +6,7 @@ This project is a day planner. It can be used to keep track of your daily tasks 
 
 **Link to Deployed Application**
 
-https://munaaahmed.github.io/passgen/
+https://munaaahmed.github.io/dayplanner/
 
 **Deployed Application Images**
 ![](images/dayplanner1.png)
