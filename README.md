@@ -9,4 +9,5 @@ This project is a day planner. It can be used to keep track of your daily tasks 
 https://munaaahmed.github.io/passgen/
 
 **Deployed Application Images**
-![](images/passgenimage.png)
+![](images/dayplanner1.png)
+![](images/dayplanner2.png)
